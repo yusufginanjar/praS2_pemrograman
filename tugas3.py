@@ -32,3 +32,6 @@ print('Siswa yang mengikuti Pramuka dan suka Geografi:')
 for student in students:
     if 'extra' in student and student['extra'] == 'Pramuka' and 'suka' in student and student['suka'] == 'Geografi':
         print(student['name'])
+
+
+# make a function that takes a list of numbers and returns a new list 
